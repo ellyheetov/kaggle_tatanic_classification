@@ -21,16 +21,16 @@
 
 ## 3. Data Correlation Analysis
 각 Feature가 Survived에 얼마나 많은 영향을 미치고 있는지를 알아본다.
-### - Null Data Checking
-### - Pclass
-### -Sex
-### - Sex and Pclass
-### - Age
-### - Age and Pclass
-### - Pclass, Sex and Age
-### - Embarked
-### - Family 
-### - Fare
+- Null Data Checking
+- Pclass
+ -Sex
+- Sex and Pclass
+- Age
+- Age and Pclass
+- Pclass, Sex and Age
+- Embarked
+- Family 
+- Fare
 
 ## 4. Data preproecessing
 
@@ -44,5 +44,7 @@
 - Feature Importance
 
 ## 5.Build Model and Train
+
+- RandomForestClassifier
 
 ## 6. Predict on Test Set
