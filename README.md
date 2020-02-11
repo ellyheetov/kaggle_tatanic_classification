@@ -1,10 +1,10 @@
 # kaggle_tatanic_classification
 
-### 1. Problem Definition
+## 1. Problem Definition
 
 타의타닉 호에서 탑승했던 사람들의 정보를 바탕으로 생존자를 예측한다.
  
-### 2. Data Dictionary from Kagle
+## 2. Data Dictionary from Kagle
 
 |Variable|Definition|Key|Veriable Notes|
 |:---:|:---:|:----:|:-----|
@@ -19,21 +19,30 @@
 |cabin|Cabin number||
 |embarked|	Port of Embarkation|C = Cherbourg, Q = Queenstown, S = Southampton||
 
-### 3. Data Correlation Analysis
+## 3. Data Correlation Analysis
 각 Feature가 Survived에 얼마나 많은 영향을 미치고 있는지를 알아본다.
-#### 3.0 Null Data Checking
-#### 3.1 Pclass
-#### 3.2Sex
-#### 3.3 Sex and Pclass
-#### 3.4 Age
-#### 3.5 Age and Pclass
-#### 3.6 Pclass, Sex and Age
-#### 3.7 Embarked
-#### 3.8 Family 
-#### 3.9 Fare
+### - Null Data Checking
+### - Pclass
+### -Sex
+### - Sex and Pclass
+### - Age
+### - Age and Pclass
+### - Pclass, Sex and Age
+### - Embarked
+### - Family 
+### - Fare
 
-### 4. Data preproecessing
+## 4. Data preproecessing
 
-### 5.Build Model and Train
+- Name Replacing
+- Fill Null in Age
+- Fill Nill in Embarked
+- Change Initial, Embarked and Sex (string to numerical)
+- One-hot encoding on Initial and Embarked
+- Drop columns
+- Build Model and predict using the trained model
+- Feature Importance
 
-### 6. Predict on Test Set
+## 5.Build Model and Train
+
+## 6. Predict on Test Set
