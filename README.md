@@ -18,3 +18,11 @@
 |fare|	Passenger fare||
 |cabin|Cabin number||
 |embarked|	Port of Embarkation|C = Cherbourg, Q = Queenstown, S = Southampton||
+
+### 3. Data Correlation Analysis
+
+### 4. Data preproecessing
+
+### 5.Build Model and Train
+
+### 6. Predict on Test Set
