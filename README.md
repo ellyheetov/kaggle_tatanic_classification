@@ -20,6 +20,17 @@
 |embarked|	Port of Embarkation|C = Cherbourg, Q = Queenstown, S = Southampton||
 
 ### 3. Data Correlation Analysis
+각 Feature가 Survived에 얼마나 많은 영향을 미치고 있는지를 알아본다.
+#### 3.0 Null Data Checking
+#### 3.1 Pclass
+#### 3.2Sex
+#### 3.3 Sex and Pclass
+#### 3.4 Age
+#### 3.5 Age and Pclass
+#### 3.6 Pclass, Sex and Age
+#### 3.7 Embarked
+#### 3.8 Family 
+#### 3.9 Fare
 
 ### 4. Data preproecessing
 
