@@ -2,7 +2,7 @@
 
 ## 1. Problem Definition
 
-타의타닉 호에서 탑승했던 사람들의 정보를 바탕으로 생존자를 예측한다.
+I will go through the whole process of creating a machine learning model on the famous Titanic dataset, which is used by many people all over the world. It provides information on the fate of passengers on the Titanic. By using it, I will predict whether a passenger on the titanic would have been survived or not.
  
 ## 2. Data Dictionary from Kagle
 
@@ -46,5 +46,7 @@
 ## 5.Build Model and Train
 
 - RandomForestClassifier
+
+Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 
 ## 6. Predict on Test Set
