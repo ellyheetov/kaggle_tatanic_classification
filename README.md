@@ -20,7 +20,7 @@ I will go through the whole process of creating a machine learning model on the 
 |embarked|	Port of Embarkation|C = Cherbourg, Q = Queenstown, S = Southampton||
 
 ## 3. Data Correlation Analysis
-각 Feature가 Survived에 얼마나 많은 영향을 미치고 있는지를 알아본다.
+Find out how much each Feature is influencing Survived.
 - Null Data Checking
 - Pclass
  -Sex
